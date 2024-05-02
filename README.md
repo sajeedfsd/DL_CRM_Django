@@ -1,6 +1,9 @@
 ```
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % ls
 README.md
+```
+
+```
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % pip3 -V
 pip 24.0 from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pip (python 3.12)
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % python3 -m pip --version
@@ -9,6 +12,9 @@ sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % pip3 --version
 pip 24.0 from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pip (python 3.12)
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % python3 -m django --version
 5.0.3
+```
+
+```
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % pip3 install django
 Requirement already satisfied: django in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (5.0.3)
 Requirement already satisfied: asgiref<4,>=3.7.0 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from django) (3.8.1)
@@ -29,14 +35,32 @@ Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
 Using cached sqlparse-0.5.0-py3-none-any.whl (43 kB)
 Installing collected packages: sqlparse, asgiref, Django
 Successfully installed Django-5.0.4 asgiref-3.8.1 sqlparse-0.5.0
+```
+
+```
 (env) sajeedsaif@Sajeeds-MacBook-Air dl_crm % python3 -m django --version
 5.0.4
+```
+
+```
 (env) sajeedsaif@Sajeeds-MacBook-Air dl_crm % django-admin startproject digital_lync_crm
+```
+
+```
 (env) sajeedsaif@Sajeeds-MacBook-Air dl_crm % ls
 digital_lync_crm        env
+```
+
+```
 (env) sajeedsaif@Sajeeds-MacBook-Air dl_crm % cd digital_lync_crm
+```
+
+```
 (env) sajeedsaif@Sajeeds-MacBook-Air digital_lync_crm % ls
 digital_lync_crm        manage.py
+```
+
+```
 (env) sajeedsaif@Sajeeds-MacBook-Air digital_lync_crm % python3 manage.py runserver
 Watching for file changes with StatReloader
 Performing system checks...
@@ -53,7 +77,9 @@ Quit the server with CONTROL-C.
 [02/May/2024 08:44:17] "GET / HTTP/1.1" 200 10629
 Not Found: /favicon.ico
 [02/May/2024 08:44:17] "GET /favicon.ico HTTP/1.1" 404 2120
-^C%                                                                                                                                                                      
+^C%
+```
+```                                                                                                                                                                    
 (env) sajeedsaif@Sajeeds-MacBook-Air digital_lync_crm % ls
 db.sqlite3              digital_lync_crm        manage.py
 (env) sajeedsaif@Sajeeds-MacBook-Air digital_lync_crm % python3 manage.py startapp leadmodule
