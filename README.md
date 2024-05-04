@@ -1,3 +1,5 @@
+# To Start Server use: python3 manage.py runserver
+
 ```
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % ls
 README.md
