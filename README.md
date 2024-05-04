@@ -1,5 +1,6 @@
 # To Start Server use: python3 manage.py runserver
 
+## Below Commands are for Env Set Up and Project Set Up
 ```
 sajeedsaif@Sajeeds-MacBook-Air DjangoCRM % ls
 README.md
